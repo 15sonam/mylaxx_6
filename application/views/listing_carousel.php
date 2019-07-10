@@ -7,7 +7,7 @@
 	<div class="carousel-thumbs">
 		<?php foreach($listing->item->images as $image) {  ?>
 		<div style="display:table-cell;	padding-right:10px;position:relative;">
-		<div class="carousel-thumb" data-hash="<?=$image->large?>" style="background-image: url('http://127.0.0.1:4002/ob/images/<?=$image->tiny?>');"></div>
+		<div class="carousel-thumb" data-hash="<?=$image->large?>" style="background-image: url('http://134.209.23.223:4002/ob/images/<?=$image->tiny?>');"></div>
 		</div>
 		<?php } ?>
 	</div>
